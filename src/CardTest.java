@@ -7,7 +7,7 @@ public class CardTest {
          *    이때 , Card 클래스의 클래스변수(cv)인 width 와 height 가 메모리에 생성되고 각각 100,250으로 초기화 된다.
          *    (static 이기 때문)
          *
-         * 3. Card 인스턴스가 생성되고, 멤버변수(iv)인 kind 가 기본값인 null 과 0으로 각각 초기화 된다.
+         * 3. Card 인스턴스가 생성되고, 인스턴스변수(iv)인 kind 가 기본값인 null 과 0으로 각각 초기화 된다.
          *    그리고 생성된 인스턴스의 주소가 참조변수 c1에 저장된다.
          */
         Card c1 = new Card();
@@ -42,7 +42,9 @@ public class CardTest {
 }
 
 class Card{
-    // 멤버변수(iv)
+    // iv,cv는 클래스 내부에 있으므로 멤버변수이다
+
+    // 인스턴스변수(iv)
     String kind;
     int number;
     // 클래스변수(cv)
