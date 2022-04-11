@@ -1,13 +1,15 @@
+package MemberVar;
+
 public class CardTest {
-    // 1. CardTest 클래스의 main 메서드가 호출 되면서 프로그램 시작.
+    // 1. MemberVar.CardTest 클래스의 main 메서드가 호출 되면서 프로그램 시작.
     public static void main(String[] args) {
 
-        /**   Card c1 = new Card();
-         * 2. Card 클래스의 instance 를 생성하기 위해 먼저 Card 클래스가 메모리에 로드된다.
-         *    이때 , Card 클래스의 클래스변수(cv)인 width 와 height 가 메모리에 생성되고 각각 100,250으로 초기화 된다.
+        /**   MemberVar.Card c1 = new MemberVar.Card();
+         * 2. MemberVar.Card 클래스의 instance 를 생성하기 위해 먼저 MemberVar.Card 클래스가 메모리에 로드된다.
+         *    이때 , MemberVar.Card 클래스의 클래스변수(cv)인 width 와 height 가 메모리에 생성되고 각각 100,250으로 초기화 된다.
          *    (static 이기 때문)
          *
-         * 3. Card 인스턴스가 생성되고, 인스턴스변수(iv)인 kind 가 기본값인 null 과 0으로 각각 초기화 된다.
+         * 3. MemberVar.Card 인스턴스가 생성되고, 인스턴스변수(iv)인 kind 가 기본값인 null 과 0으로 각각 초기화 된다.
          *    그리고 생성된 인스턴스의 주소가 참조변수 c1에 저장된다.
          */
         Card c1 = new Card();
@@ -15,7 +17,7 @@ public class CardTest {
         c1.kind   = "Heart";
         c1.number = 7;
 
-        // 5. Card 클래스가 이미 메모리에 로드 되었으므로 바로 Card 인스턴스가 생성되고 자동 초기화 된다. 그리고 그 주소가 참조변수 c2에 저장된다.
+        // 5. MemberVar.Card 클래스가 이미 메모리에 로드 되었으므로 바로 MemberVar.Card 인스턴스가 생성되고 자동 초기화 된다. 그리고 그 주소가 참조변수 c2에 저장된다.
         Card c2 = new Card();
         // 6. c2.kind 를 "Spade"로, c2.number 를 4로 변경한다.
         c2.kind   = "Spade";
