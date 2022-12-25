@@ -77,11 +77,16 @@ public class Array_init {
         System.out.println("arr3: " + Arrays.toString(arr3) + ", length: " + arr3.length);
 
 
+        /**
+         *  아래 코드 해설 :
+         *  index가 음수이거나 배열의 크기를 벗어나면 런타임(실행시점)에 예외 발생함('ArrayIndexOutOfBoundsException').
+         */
         String[] strings1 = new String[3];
         System.out.println(strings1[0]);    // 정상
+        System.out.println(strings1[1]);    // 정상
+        System.out.println(strings1[2]);    // 정상
 //      System.out.println(strings1[-1]);   // ArrayIndexOutOfBoundsException 발생
 //      System.out.println(strings1[3]);    // ArrayIndexOutOfBoundsException 발생
-
 
     }
 }
