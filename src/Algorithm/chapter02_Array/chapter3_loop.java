@@ -1,6 +1,6 @@
 package Algorithm.chapter02_Array;
 
-public class Loop {
+public class chapter3_loop {
 
     public static void main(String[] args) {
 

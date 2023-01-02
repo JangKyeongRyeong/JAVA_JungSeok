@@ -2,7 +2,7 @@ package Algorithm.chapter02_Array;
 
 import java.util.Arrays;
 
-public class loop_2 {
+public class chapter3_loop_2 {
     public static void main(String[] args) {
         int [] students = {1,2,3,4,5,6,7,8,9,10};
         System.out.println("변경전: "+ Arrays.toString(students));
